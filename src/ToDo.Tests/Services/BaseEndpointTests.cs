@@ -18,7 +18,7 @@ internal class BaseEndpointTests<T> where T : notnull
 			.UseSerialization()
 			.ConfigureAppConfiguration(builder =>
 			{
-				var appsettingsPrefix = new Dictionary<string, string>
+				var appsettingsPrefix = new Dictionary<string, string?>
 						{
 							{ "ITaskEndpoint:Url", "https://graph.microsoft.com/beta/me" },
 							{ "ITaskEndpoint:UseNativeHandler","true" }
