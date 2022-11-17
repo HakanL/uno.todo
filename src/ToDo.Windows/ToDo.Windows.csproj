@@ -73,6 +73,7 @@
 		<PackageReference Include="Refit" />
 		<PackageReference Include="Refit.HttpClientFactory" />
 		<PackageReference Include="Uno.Core.Extensions.Logging.Singleton" />
+		<PackageReference Include="Uno.WinUI" />
 		<PackageReference Include="Uno.WinUI.MSAL" />
 	</ItemGroup>
 	<ItemGroup>
