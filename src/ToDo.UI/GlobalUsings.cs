@@ -14,7 +14,6 @@ global using Windows.ApplicationModel;
 global using Windows.ApplicationModel.Core;
 global using Windows.Foundation;
 global using Windows.UI.Popups;
-global using Uno.Foundation;
 global using Uno.Extensions;
 global using Uno.Extensions.Configuration;
 global using Uno.Extensions.Hosting;
